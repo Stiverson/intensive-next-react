@@ -1,12 +1,16 @@
+import Layout from '../components/Layout'
 import style from '../styles/Estiloso.module.css'
-import Link from 'next/link'
+
 
 export default function Estiloso(){
 
     return (
+        <Layout>
+
         <div className={style.roxo}>
-            <Link href="/">Voltar</Link>
+           
             <h1>Estilo udando módulos  css</h1>
         </div>
+        </Layout>
     )
 }
